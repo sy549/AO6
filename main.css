@@ -1,1 +1,59 @@
+:root {
+    --global-color-1: #800000;
+}
+
+/* the styles for the elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* the styles for the header */
+header img {
+    float: left;
+}
+h2 {
+    font-size: 170%;
+    color: #800000;
+    text-indent: 30px;
+}
+h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
+.shadow {
+    text-shadow: 2px 2px 4px #800000;
+}
+
+/* the styles for the main content */
+main {
+    clear: left;
+}
+main h1 {
+    font-size: 150%;
+}
+main h2 {
+    color: var(--global-color-1);
+    font-size: 130%;
+}
+main h3 {
+    font-size: 105%;
+}
+
+/* the styles for the footer */
+/* Styles for links when focused or hovered */
+a {
+    text-decoration: none;
+    color: #008000;
+}
+
+a:focus, a:hover {
+    font-style: italic;
+}
+/* Center the content in the footer */
+
+footer {
+    text-align: center;
+}
 
